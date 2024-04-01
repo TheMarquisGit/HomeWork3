@@ -14,7 +14,9 @@ public class Main {
         int temp = 17;
         if (temp < 5) {
             System.out.println("На улице " + temp + " градусов, нужно надеть шапку");
-        } else System.out.println("На улице " + temp + " градусов, можно идти без шапки");
+        } else {
+            System.out.println("На улице " + temp + " градусов, можно идти без шапки");
+        }
 
         //Задача 3
         System.out.println("\nЗадача 3");
@@ -37,24 +39,22 @@ public class Main {
         //Задача 5
         System.out.println("\nЗадача 5");
         int childAge = 17;
-        if (childAge <5) {
+        if (childAge < 5) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
-        } else if (childAge > 5 && childAge < 14) {
+        } else if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься только в сопровождении взрослого");
         } else System.out.println("Ребёнок может кататься без сопровождения взрослого");
 
         //Задача 6
         System.out.println("\nЗадача 6");
         int vagonPlace = 17;
-        if (vagonPlace < 59) {
+        if (vagonPlace < 60) {
             System.out.println("В вагоне есть сидячие места");
-        } else if (vagonPlace == 59) {
-            System.out.println("В вагоне есть одно сидячее место");
         } else if (vagonPlace > 60 && vagonPlace < 102) {
             System.out.println("В вагоне есть стоячие места");
-        } else if (vagonPlace == 102) {
-            System.out.println("В вагоне есть одно стоячее место");
-        } else System.out.println("Мест нет, вагон полностью забит");
+        } else if (vagonPlace >= 102) {
+            System.out.println("Мест нет, вагон полностью забит");
+        }
 
         //Задача 7
         System.out.println("\nЗадача 7");
