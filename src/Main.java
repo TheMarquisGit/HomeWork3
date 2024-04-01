@@ -23,7 +23,9 @@ public class Main {
         int speed = 17;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + ", придётся заплатить штраф");
-        } else System.out.println("Если скорость " + speed + ", можно ездить спокойно");
+        } else {
+            System.out.println("Если скорость " + speed + ", можно ездить спокойно");
+        }
 
         //Задача 4
         System.out.println("\nЗадача 4");
@@ -34,7 +36,9 @@ public class Main {
             System.out.println("Если возраст человека равен " + humanAge + ", то ему нужно ходить в школу");
         } else if (humanAge >= 18 && humanAge <= 24) {
             System.out.println("Если возраст человека равен " + humanAge + ", то его место в университете");
-        } else if (humanAge > 24) System.out.println("Ну а раз человеку " + humanAge + ", пора идти на работу");
+        } else if (humanAge > 24) {
+            System.out.println("Ну а раз человеку " + humanAge + ", пора идти на работу");
+        }
 
         //Задача 5
         System.out.println("\nЗадача 5");
@@ -43,7 +47,9 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + childAge + ", то ему нельзя кататься на аттракционе");
         } else if (childAge >= 5 && childAge < 14) {
             System.out.println("Если возраст ребенка равен " + childAge + ", то он может кататься только в сопровождении взрослого");
-        } else System.out.println("Ребёнок может кататься без сопровождения взрослого");
+        } else {
+            System.out.println("Ребёнок может кататься без сопровождения взрослого");
+        }
 
         //Задача 6
         System.out.println("\nЗадача 6");
@@ -66,7 +72,9 @@ public class Main {
             max = one;
         } else if (two >= one && two >= three) {
             max = two;
-        } else max = three;
+        } else {
+            max = three;
+        }
         System.out.println("Бо́льшее из трёх чисел = " + max);
     }
 }
